@@ -1,0 +1,64 @@
+Input 1 to 2 integers seperated by a space followed by enter.
+The integer must be between 1 and 999.
+After completion enter 0 to quit and display the graph.
+1 2
+node 1 is new
+node 2 is new
+Set link from 1 to 2
+1 5
+node 1 pre-existed
+node 5 is new
+Set link from 1 to 5
+1 7
+node 1 pre-existed
+node 7 is new
+Set link from 1 to 7
+12
+node 12 is new
+15 7
+node 15 is new
+node 7 pre-existed
+Set link from 15 to 7
+1 9
+node 1 pre-existed
+node 9 is new
+Set link from 1 to 9
+15 9
+node 15 pre-existed
+node 9 pre-existed
+Set link from 15 to 9
+2
+node 2 pre-existed
+2 7
+node 2 pre-existed
+node 7 pre-existed
+Set link from 2 to 7
+2 8
+node 2 pre-existed
+node 8 is new
+Set link from 2 to 8
+2 9
+node 2 pre-existed
+node 9 pre-existed
+Set link from 2 to 9
+100 100
+node 100 is new
+node 100 pre-existed
+Set link from 100 to 100
+100 21
+node 100 pre-existed
+node 21 is new
+Set link from 100 to 21
+0
+Exited input
+---Printing the graph now---
+Node 21 successors are:
+Node 100 successors are: 21 100
+Node 8 successors are:
+Node 9 successors are:
+Node 15 successors are: 9 7
+Node 12 successors are:
+Node 7 successors are:
+Node 5 successors are:
+Node 2 successors are: 9 8 7
+Node 1 successors are: 9 7 5 2

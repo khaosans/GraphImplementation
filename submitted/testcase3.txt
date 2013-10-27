@@ -1,0 +1,111 @@
+//#5 & #8 Item to be implemented
+//Souriya Khaosanga
+//CS201 HW5 test case 3
+
+Script started on June  2, 2013 05:18:49 AM PDT
+sh-3.2$ ./a.out
+Input 1 to 2 integers seperated by a space followed by enter.
+The integer must be between 1 and 999.
+After completion enter 0 to quit and display the graph.
+1 2
+node 1 is new
+node 2 is new
+Set link from 1 to 2
+2 3
+node 2 pre-existed
+node 3 is new
+Set link from 2 to 3
+3 4
+node 3 pre-existed
+node 4 is new
+Set link from 3 to 4
+4 5
+node 4 pre-existed
+node 5 is new
+Set link from 4 to 5
+5 6
+node 5 pre-existed
+node 6 is new
+Set link from 5 to 6
+6 1
+node 6 pre-existed
+node 1 pre-existed
+Set link from 6 to 1
+4 7
+node 4 pre-existed
+node 7 is new
+Set link from 4 to 7
+7 8
+node 7 pre-existed
+node 8 is new
+Set link from 7 to 8
+8 9
+node 8 pre-existed
+node 9 is new
+Set link from 8 to 9
+9 10
+node 9 pre-existed
+node 10 is new
+Set link from 9 to 10
+10 11
+node 10 pre-existed
+node 11 is new
+Set link from 10 to 11
+11 12
+node 11 pre-existed
+node 12 is new
+Set link from 11 to 12
+12 7
+node 12 pre-existed
+node 7 pre-existed
+Set link from 12 to 7
+8 12
+node 8 pre-existed
+node 12 pre-existed
+Set link from 8 to 12
+11 9
+node 11 pre-existed
+node 9 pre-existed
+Set link from 11 to 9
+7 10
+node 7 pre-existed
+node 10 pre-existed
+Set link from 7 to 10
+10 7
+node 10 pre-existed
+node 7 pre-existed
+Set link from 10 to 7
+10 13
+node 10 pre-existed
+node 13 is new
+Set link from 10 to 13
+14 15
+node 14 is new
+node 15 is new
+Set link from 14 to 15
+15 14
+node 15 pre-existed
+node 14 pre-existed
+Set link from 15 to 14
+0
+Exited input
+---Printing the graph now---
+Node 15 successors are: 14
+Node 14 successors are: 15
+Node 13 successors are:
+Node 12 successors are: 7
+Node 11 successors are: 9 12
+Node 10 successors are: 13 7 11
+Node 9 successors are: 10
+Node 8 successors are: 12 9
+Node 7 successors are: 10 8
+Node 6 successors are: 1
+Node 5 successors are: 6
+Node 4 successors are: 7 5
+Node 3 successors are: 4
+Node 2 successors are: 3
+Node 1 successors are: 2
+sh-3.2$ exit
+exit
+
+script done on June  2, 2013 05:20:09 AM PDT

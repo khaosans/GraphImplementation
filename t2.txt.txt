@@ -1,0 +1,104 @@
+Input 1 to 2 integers seperated by a space followed by enter.
+The integer must be between 1 and 999.
+After completion enter 0 to quit and display the graph.
+1 2
+node 1 is new
+node 2 is new
+Set link from 1 to 2
+2 3
+node 2 pre-existed
+node 3 is new
+Set link from 2 to 3
+2 4
+node 2 pre-existed
+node 4 is new
+Set link from 2 to 4
+3 2
+node 3 pre-existed
+node 2 pre-existed
+Set link from 3 to 2
+3 5
+node 3 pre-existed
+node 5 is new
+Set link from 3 to 5
+3 6
+node 3 pre-existed
+node 6 is new
+Set link from 3 to 6
+4 3
+node 4 pre-existed
+node 3 pre-existed
+Set link from 4 to 3
+5 9
+node 5 pre-existed
+node 9 is new
+Set link from 5 to 9
+6 9
+node 6 pre-existed
+node 9 pre-existed
+Set link from 6 to 9
+6 7
+node 6 pre-existed
+node 7 is new
+Set link from 6 to 7
+7 8
+node 7 pre-existed
+node 8 is new
+Set link from 7 to 8
+8 6
+node 8 pre-existed
+node 6 pre-existed
+Set link from 8 to 6
+9 10
+node 9 pre-existed
+node 10 is new
+Set link from 9 to 10
+9 12
+node 9 pre-existed
+node 12 is new
+Set link from 9 to 12
+10 11
+node 10 pre-existed
+node 11 is new
+Set link from 10 to 11
+10 12
+node 10 pre-existed
+node 12 pre-existed
+Set link from 10 to 12
+11 13
+node 11 pre-existed
+node 13 is new
+Set link from 11 to 13
+12 13
+node 12 pre-existed
+node 13 pre-existed
+Set link from 12 to 13
+13 10
+node 13 pre-existed
+node 10 pre-existed
+Set link from 13 to 10
+13 14
+node 13 pre-existed
+node 14 is new
+Set link from 13 to 14
+14 14
+node 14 pre-existed
+node 14 pre-existed
+Set link from 14 to 14
+0
+Exited input
+---Printing the graph now---
+Node 14 successors are: 14
+Node 13 successors are: 14 10
+Node 11 successors are: 13
+Node 12 successors are: 13
+Node 10 successors are: 12 11
+Node 8 successors are: 6
+Node 7 successors are: 8
+Node 9 successors are: 12 10
+Node 6 successors are: 7 9
+Node 5 successors are: 9
+Node 4 successors are: 3
+Node 3 successors are: 6 5 2
+Node 2 successors are: 4 3
+Node 1 successors are: 2
